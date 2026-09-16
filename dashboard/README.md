@@ -2,6 +2,11 @@
 
 The dashboard is the presentation layer of the AICines Product Analytics case study.
 
+## Files
+
+- `AICines_Product_Analytics.pbix` — Power BI source file containing the data model, measures and four-page dashboard.
+- `AICines_Product_Analytics_Dashboard.pdf` — exported dashboard covering all four pages.
+
 ## Pages
 
 1. **Executive Overview** — platform scale, revenue, creator/content activity, genre performance and acquisition.
@@ -13,13 +18,12 @@ The dashboard is the presentation layer of the AICines Product Analytics case st
 
 The dashboard follows a dark AICines-inspired visual system with selective purple accents for emphasis and navigation.
 
-## Files to be added manually
+The visual system is based on approximate colors observed from the public AICines product/site presentation; these are not presented as official brand guidelines.
 
-The following binary assets should be uploaded from the local project workspace:
+## Important data limitation
 
-- `AICines_Product_Analytics.pbix`
-- `dashboard-preview.png`
-- `aicines_dashboard_page_1.png`
-- `aicines_dashboard_page_2.png`
-- `aicines_dashboard_page_3.png`
-- `aicines_dashboard_page_4.png`
+`fact_content_performance` contains a single 31 August 2026 snapshot. The dashboard therefore uses that table for cross-sectional content comparisons rather than presenting a fabricated January–August views trend. Time-based trends use date-valid event and transaction data.
+
+## Data disclosure
+
+This is a portfolio case study using a controlled synthetic dataset. It is not AICines internal operational data, and the modeled figures must not be interpreted as actual AICines business performance.
