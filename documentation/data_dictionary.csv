@@ -1,0 +1,15 @@
+table,column,definition
+dim_date,date_key,Date dimension key
+dim_users,user_id,Unique user
+dim_users,acquisition_source,Modeled acquisition channel
+dim_creators,creator_id,Unique creator
+dim_creators,creator_tier,Synthetic creator segment
+dim_content,content_id,Unique content
+dim_content,content_type,"Reel, Short Film, Mini, Image or Remix"
+dim_content,genre,Content genre
+fact_content_performance,views,Content views at snapshot
+fact_content_performance,likes,Content likes at snapshot
+fact_content_performance,recreates,Recreate events at snapshot
+fact_user_events,event_type,Product funnel/activity event
+fact_transactions,amount_usd,Modeled transaction value
+fact_creator_rewards,credits_earned,Modeled creator reward credits
